@@ -5,5 +5,6 @@ def turn_count(board)
         if board[play_count] == "X"
             counter += 1
             return counter
+        end
     end
 end
