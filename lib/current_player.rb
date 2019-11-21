@@ -4,7 +4,7 @@ def turn_count(board)
         counter = 0
         until play != "X" or play != "O"
             counter += 1
-        return counter 
+        return counter
     end
     end
 end
