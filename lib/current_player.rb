@@ -2,7 +2,7 @@
 def turn_count(board)
     board.each do |play|
         counter = 0
-        if play == "X"
+        until play != "X" or play != "O"
         return counter += 1
     end
     end
